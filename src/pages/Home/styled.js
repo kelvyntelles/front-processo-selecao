@@ -1,20 +1,23 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-    display: flex;
+
+    .conteudo-cima {
+        display: flex;
+    }
 
     .lado-esquerdo {
         width: 50%;
         height: 500px;
         background-color: #1C1C1C;
-        border: #FFFAFA;
+        border: #696969;
         border-style: solid;
     }
     .lado-direito {
         width: 50%;
         height: 500px;
         background-color: #1C1C1C;
-        border: #FFFAFA;
+        border: #696969;
         border-style: solid;
     }
 
@@ -31,5 +34,12 @@ export const Container = styled.div`
         background-color: #1C1C1C;
         text-decoration: none;
         cursor: pointer;
+    }
+
+    .conteudo-baixo {
+        margin: 70px;
+        display: grid;
+        grid-template-columns: 4fr 4fr 4fr;
+        padding-left: 200px;
     }
 `;

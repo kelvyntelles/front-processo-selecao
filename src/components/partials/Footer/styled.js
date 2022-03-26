@@ -9,3 +9,12 @@ export const FooterArea = styled.div`
     align-items: center;
     font-size: 15px;
 `;
+
+export const FooterParceiros = styled.div`
+    background-color: #000000;
+    padding: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+`;
