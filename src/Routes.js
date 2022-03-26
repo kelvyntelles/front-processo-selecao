@@ -3,6 +3,7 @@ import { Switch, Route } from 'react-router-dom';
 
 import Home from './pages/Home';
 import About from './pages/About';
+import Cadastro from './pages/Cadastro';
 
 export default () => {
     return (
@@ -12,6 +13,9 @@ export default () => {
             </Route>
             <Route exact path="/about">
                 <About />
+            </Route>
+            <Route exact path="/cadastro">
+                <Cadastro />
             </Route>
         </Switch>
     );

@@ -8,8 +8,8 @@ const Nav = () => {
             <Link to="/" className='link'>
                 Home
             </Link>
-            <Link to="/about" className='link'>
-                Sobre
+            <Link to="/cadastro" className='link'>
+                Cadastro
             </Link>
         </Container>
     );
